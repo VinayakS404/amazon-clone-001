@@ -1,0 +1,59 @@
+.sub-super-header-div{
+}
+.sub-header-div{
+  height: 45px;
+  background-color: rgb(35 47 62);
+  display: flex;
+  flex-direction: row;
+}
+.handburger-icon-img{
+  height: 25px;
+} 
+.handburger-icon-btn{
+  background: none;
+  display: flex;
+  align-items: center;
+}
+.handburger-icon-p{
+  color: white;
+  font-weight: bold;
+  padding-left: 2%;
+}
+.handburger-icon-btn{
+  border: none;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-right: 15px;
+}
+.sub-header-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sub-header-p,.sub-header-select-p{
+  color: white;
+  font-weight: normal;
+  font-size: 15px;
+  padding-left: 9.5px;
+  padding-right: 9.5px;
+}
+.sub-header-select-p{
+  padding-right: 0px;
+}
+.sub-header-p-select-div{
+  display: flex;
+  flex-direction: row;
+}
+.sub-header-p-select{
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='19' viewBox='0 0 24 24'%3E%3Cpath fill='rgb(167 172 178)' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E")
+    no-repeat right 4px center;
+  padding-right: 15px;
+  margin-bottom: -5px;
+  padding-left: 8px;
+}
