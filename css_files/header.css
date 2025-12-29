@@ -11,10 +11,12 @@
 }
 .Amazon-Logo-img{
   height: 32px;
+  padding-top: 10px;
 }
 .White-Amazon-Logo-div{
-  margin-top: 10px;
   margin-left: 20px;
+  margin-top: 8px;
+  margin-bottom: 6px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -23,6 +25,7 @@
   color: white;
   font-size: 12px;
   margin-bottom: 11px;
+  padding-top: 10px;
 }
 .location-header-info-first-p{
   color: rgb(208, 208, 208);
@@ -36,6 +39,8 @@
   margin-top: -3px;
 }
 .location-header{
+  margin-top: 8px;
+  height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -43,7 +48,8 @@
 }
 .location-icon{
   height: 18px;
-  margin-top:10px
+  margin-top:10px;
+  padding-left: 10px;
 }
 .location-header-info{
   margin-left: 2px;
@@ -197,4 +203,15 @@
   font-size: 14px;;
   font-weight: bold;
   margin-top: 5px;
+}
+.White-Amazon-Logo-div:hover{
+  border: solid white 1px;
+  margin-left: 19px;
+  margin-right: -0.5px;
+}
+.location-header:hover{
+  border: solid white 1px;
+}
+.search-select-box:hover{
+  background-color: #D4D4D4;
 }
