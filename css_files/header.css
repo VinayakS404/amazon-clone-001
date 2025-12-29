@@ -7,7 +7,7 @@
   height: 60px;
   display: flex;
   align-items: center;
-  z-index: 100;
+  z-index: 200;
 }
 .Amazon-Logo-img{
   height: 32px;

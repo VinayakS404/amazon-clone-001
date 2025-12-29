@@ -4,6 +4,8 @@
   overflow: hidden;
   margin: auto 13px;
   background-color: rgb(227 230 230);
+  position: absolute;
+  z-index: 0;
 }
 .slider-img{
   width: 100%;
