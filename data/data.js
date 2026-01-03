@@ -1,5 +1,6 @@
 const cellProductsData = [
   {
+    id : 1,
     title : 'Revamp your home in style',
     imgs : {
       img1 : '../img/table1-img1.jpg',
@@ -15,6 +16,7 @@ const cellProductsData = [
     },
     extend: 'Explore all'
   },{
+    id : 2,
     title : 'Bulk order discounts + Up to 18% GST savings',
     imgs : {
       img1 : '../img/table2-img1.jpg',
@@ -30,6 +32,7 @@ const cellProductsData = [
     },
     extend: 'Create a free account'
   },{
+    id : 3,
     title : 'Starting ₹49 | Deals on home essentials',
     imgs : {
       img1 : '../img/table3-img1.jpg',
@@ -45,6 +48,7 @@ const cellProductsData = [
     },
     extend: 'Explore all'
   },{
+    id : 4,
     title : 'Starting ₹149 | Headphones',
     imgs : {
       img1 : '../img/table4-img1.jpg',
@@ -60,6 +64,7 @@ const cellProductsData = [
     },
     extend: 'See all offers'
   },{
+    id : 5,
     title : 'Automotive essentials | Up to 60% off',
     imgs : {
       img1 : '../img/table5-img1.jpg',
@@ -75,6 +80,7 @@ const cellProductsData = [
     },
     extend: 'See more'
   },{
+    id : 6,
     title : 'Starting ₹199 | Amazon Brands & more',
     imgs : {
       img1 : '../img/table6-img1.jpg',
@@ -90,6 +96,7 @@ const cellProductsData = [
     },
     extend: 'See more'
   },{
+    id : 7,
     title : 'Up to 50% off | Baby care & toys | Amazon Brands',
     imgs : {
       img1 : '../img/table7-img1.jpg',
@@ -105,6 +112,7 @@ const cellProductsData = [
     },
     extend: 'See all offers'
   },{
+    id : 8,
     title : 'Appliances for your home | Up to 55% off',
     imgs : {
       img1 : '../img/table8-img1.jpg',

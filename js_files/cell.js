@@ -1,6 +1,6 @@
 let cellHtml = '';
 
-cellProductsData.forEach((cell) =>{
+cellProductsData.forEach( cell => {
   
   cellHtml += `
   <div class="table-ad-cell">
@@ -17,9 +17,20 @@ cellProductsData.forEach((cell) =>{
       <p class="img-info">${cell.infos.info3}</p>
       <p class="img-info">${cell.infos.info4}</p>
     </div>
-    <p class="explore-more-p">${cell.extend}</p>
+    <p class="explore-more-p js-explore-more-p" data-cell-id = "${cell.id}">${cell.extend}</p>
   </div>
   `
 });
 document.querySelector('.js-table-ad-div').innerHTML = cellHtml;
-console.log(cellHtml);
+
+document.querySelectorAll('.js-explore-more-p').forEach( par =>{
+  par.addEventListener('click',() => {
+    let cellId = Number(par.dataset.cellId);
+
+    cellProductsData.forEach( cell => {
+      if(cellId === cell.id){
+        console.log(cell.title)
+      }
+    });
+  })
+})
